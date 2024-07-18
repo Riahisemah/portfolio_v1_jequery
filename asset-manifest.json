@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Riahisemah/portfolio_v1_jequery/static/css/main.b9cda71f.css",
+    "main.js": "/Riahisemah/portfolio_v1_jequery/static/js/main.76293a05.js",
+    "static/js/453.253ccfac.chunk.js": "/Riahisemah/portfolio_v1_jequery/static/js/453.253ccfac.chunk.js",
+    "index.html": "/Riahisemah/portfolio_v1_jequery/index.html",
+    "main.b9cda71f.css.map": "/Riahisemah/portfolio_v1_jequery/static/css/main.b9cda71f.css.map",
+    "main.76293a05.js.map": "/Riahisemah/portfolio_v1_jequery/static/js/main.76293a05.js.map",
+    "453.253ccfac.chunk.js.map": "/Riahisemah/portfolio_v1_jequery/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9cda71f.css",
+    "static/js/main.76293a05.js"
+  ]
+}
