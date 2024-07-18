@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="info">
       <Image
-        src="/logo512.png"
+        src="http://localhost:1234/profil.01bc1268.png"
         className={`animate__animated animate__backInDown logo ${
           isDarkMode ? "" : "logo-light"
         }`}
