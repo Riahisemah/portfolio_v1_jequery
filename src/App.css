@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    font-family:'Roboto';
+    overflow-x: hidden !important;
+    
+}
+.overlay {
+    z-index: 99;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.row>*{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+p{
+    font-family: monospace !important;
+}
+::selection{
+    background: rgb(91, 91, 91);
+}
+.App{
+    background: rgb(5,41,55);
+    background:linear-gradient(29deg, rgba(5,41,55,1) 4%, rgba(22,22,22,1) 93%, rgba(186,186,186,1) 100%); 
+}
+.light-mode-theme{
+    background: rgb(5,41,55);
+    background: linear-gradient(29deg, rgba(5,41,55,1) 12%, rgba(184,184,184,1) 74%, rgba(209,209,209,1) 93%);
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 60px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #313131; 
+  }
+  
+.waves svg{
+    height: 145% !important;
+    width: 140% !important;
+}
+.info{
+    margin-bottom: 10rem;
+}
+.logo{
+    margin-top: 3rem;
+    width: 19%;
+    border-radius: 200px;
+    -webkit-box-shadow: -11px 0px 45px -1px rgba(52, 104, 128, 1);
+-moz-box-shadow: -11px 0px 45px -1px rgba(52, 104, 128, 1);
+box-shadow: -11px 0px 45px -1px rgba(52, 104, 128, 1);
+transition: ease-in-out 0.5s;
+
+}
+.logo-light{
+    -webkit-box-shadow: -11px 0px 45px -1px rgb(0, 0, 0);
+-moz-box-shadow: -11px 0px 45px -1px rgb(0, 0, 0);
+box-shadow: -11px 0px 45px -1px rgb(0, 0, 0);
+transition: ease-in-out 0.5s;
+}
+.social-icons{
+    margin-top: 20px;
+   padding: 30px;
+}
+.social-button{
+    padding: 24px;
+}
+.social-logo{
+    width: 3.75%;
+    height: 100%;
+    color: #1186a3;
+transition: ease-in-out 0.5s;
+
+}
+.social-logo-light{
+    color: #5d5d5d;
+transition: ease-in-out 0.5s;
+
+}
+.video{
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+.play-icon{
+    position: absolute;
+    width: 14%;
+    height: auto;
+    top: 40%;
+    right: 43%;
+    cursor: pointer;
+}
+
+
+.about-me{
+    color: rgb(242, 240, 240);
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 5rem;
+}
+.about-me-title{
+    letter-spacing: 0.75rem;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    width: max-content;
+}
+.about-me-des{
+    padding: 20px;
+}
+.light-text{
+    color: rgb(238 237 237) ;
+    text-shadow: -3px 7px 6px rgba(0,0,0,0.56) !important;
+transition: ease-in-out 0.5s;
+
+}
+.materials-I-use{
+    color: rgb(242, 240, 240);
+    text-align: left;
+    padding: 20px;
+}
+.material-I-use-title{
+    letter-spacing: 0.75rem;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    width: max-content;
+}
+
+.materials-I-use-des{
+margin-left: 20px;
+text-align: left;
+}
+.works-title{
+    color: rgb(242, 240, 240);
+    font-weight: bolder;
+    letter-spacing: 0.75rem;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    width: max-content;
+    margin-left: 30px;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+.web-image{
+    border-radius: 20px;
+}
+.content-creator{
+    color: rgb(242, 240, 240);
+    text-align: left;
+    padding: 20px;
+    margin-top: 5rem;
+}
+.content-creator-title{
+    letter-spacing: 0.75rem;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    width: max-content;
+}
+.video{
+    height: 700px;
+    border-radius: 30px;
+}
+.tik{
+    color: #929292;
+}
+.tik-light-mode{
+    color: #f5f5f5;
+}
+.tok{
+    color: #11a4c9;
+}
+.tok-light-mode{
+    color: #00d4c7;
+    
+}
+.tiktok-button{
+    width: 13%;
+    padding: 2px;
+    border: none;
+    transition: ease-in-out 0.5s;
+    background: #146d6f;
+    width: max-content;
+}
+.tiktok-button:hover{
+    font-size: 1.2rem;
+    background: rgb(113 76 127) !important;
+    box-shadow: -17px 5px 41px -6px rgba(12,118,180,0.55);
+-webkit-box-shadow: -17px 5px 41px -6px rgba(12,118,180,0.55);
+-moz-box-shadow: -17px 5px 41px -6px rgba(12,118,180,0.55);
+}
+.light-text{
+    color: black;
+    font-weight: bold;
+}
+.light-text-content-creator{
+    color: #ababab;
+}
+.tik-tok-des-light{
+    text-align: center;
+    color: #d0d0d0;
+    font-weight: bold;
+}
+#fourth-section{
+    padding-bottom: 120px;
+}
+.contact-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 50%;
+    padding: 40px;
+    background: rgba(0,0,0,.5);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .contact-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-box .user-box {
+    position: relative;
+  }
+  .contact-box .message-box {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .contact-box .user-box input,textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .contact-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .contact-box .message-box label{
+    position: absolute;
+    top:-30px;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .contact-box .user-box input:focus ~ label,
+  .contact-box .user-box input:valid ~ label,
+  .contact-box .message-box textarea:focus ~ label,
+  .contact-box .message-box textarea.has-value ~ label,
+  .contact-box .user-box input.has-value ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  
+  .contact-box form button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    border: none;
+    background: black;
+    border-radius: 5px;
+  }
+  
+  .contact-box button:hover {
+    background: #37c3d6;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #2e3737, 0 0 25px #5b6b6c, 0 0 50px #75a1a3, 0 0 100px #404849;
+  }
+  
+  .contact-box button span {
+    position: absolute;
+    display: block;
+  }
+  
+  .contact-box button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .contact-box button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .contact-box button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .contact-box button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+
+ 
+
+  @media screen and (max-width: 1400px) {
+    .contact-box{
+        width: 70%; 
+    }
+  }
+@media screen and (max-width: 992px) {
+    .logo{
+        width: 33%;
+    }
+    .web-name{
+        font-size: 2.5rem;
+    }
+    .web-image{
+        margin: 10px;
+    }
+    .social-logo{
+        width: 6.25%;
+    }
+    .contact-box{
+        width: 100%; 
+    }
+    .third-image{
+        width: 90%;
+        margin-top: 15px !important;
+    }
+   
+}
+
+@media screen and (max-width: 768px) {
+    .body-container{
+        margin-top: 4rem;
+    }
+    .info{
+        margin-bottom: 7rem;
+    }
+    .social-logo{
+        width:7.50%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .web-name{
+        font-size: 6vw;
+    }
+    .materials-I-use{
+        padding: 0;
+    }
+    .material-I-use-title{
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+
+    }
+    .content-creator-title{
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+
+
+    }
+    .about-me-title{
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+
+    }
+    .works-title{
+        font-size: 1.3rem;
+        text-align: left;
+        margin-left: 0px;
+        letter-spacing: 0.1rem;
+
+
+    }
+    .image{
+        width: 6% !important;
+    }
+    .web-image{
+        margin: 10px;
+    }
+    .video{
+        margin-top: 50px;
+    height: 350px !important;
+    }
+    .social-icons{
+        margin-top: 0px;
+    }
+    .social-logo{
+        width: 4.5%;
+    }
+    .social-button{
+        padding: 19px;
+    }
+    .videos{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .first-social-icons-xs{
+        text-align: center !important;
+    }
+    .second-social-icons-xs{
+        margin-top: 10px;
+        text-align: center !important;
+    }
+    
+    
+}
+
+
